@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>PdfTest</title>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="fileopener.js"></script>
+<script type="text/javascript">
+function viewFdf(){
+	window.plugins.fileOpener.open("file:///sdcard/pdf/requestProcess.pdf");
+}
+</script>
+</head>
+<body>
+	<h1>Apache Cordova FileOpener Test</h1>
+	<hr>
+	<input type="button" value="pdf" onClick="viewFdf()">
+</body>
+</html>
